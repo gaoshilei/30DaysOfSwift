@@ -12,7 +12,9 @@
 <!-- more -->
 
 
-# Day1 - Timer Counter
+# Day1 - Timer Counter  
+
+![Timer Counter](http://leonlei.top/Day%201%20-%20Timer%20Counter.gif)
 
 知识点总结：  
 1. 属性观察者 willSet didSet  
