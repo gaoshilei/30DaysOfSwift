@@ -17,12 +17,14 @@
 ![Timer Counter](http://leonlei.top/Day%201%20-%20Timer%20Counter.gif)
 
 知识点总结：  
-1. 属性观察者 willSet didSet  
-2. var let 关键字的区别和使用  
-3. @objc 修饰符使用  
-4. Swift 中Timer使用
+1.属性观察者 willSet didSet  
+2.var let 关键字的区别和使用  
+3.@objc 修饰符使用  
+4.Swift 中Timer使用
 
-# Day2 - Iconfont
+# Day2 - Iconfont  
+
+![](http://leonlei.top/Day2%20-%20Iconfont.gif)  
 
 知识点总结：  
 1.访问限制关键字 private、fileprivate、internal、public、open  
@@ -43,4 +45,6 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 隐式解包: 就是在定义可选类型值的时候，加上 ！进行强制解包  
 显示解包: 在使用的时候加 ！进行解包  
 去解包: 用的时候加上 ？可定义 optional 进行解包  
-```
+```  
+5.空合运算符 ？？，本质上是对三目运算符的一种简化  
+6.convenience 和 required 关键字使用
