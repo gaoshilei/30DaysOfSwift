@@ -18,6 +18,25 @@
 
 知识点总结：  
 1. 属性观察者 willSet didSet  
-2. var let 关键字使用  
+2. var let 关键字的区别和使用  
 3. @objc 修饰符使用  
 4. Swift 中Timer使用
+
+# Day2 - Iconfont
+
+知识点总结：  
+1.访问限制关键字 private、fileprivate、internal、public、open  
+>
+private 只能在当前文件的当前模块的作用域使用  
+fileprivate 只能在当前文件内使用  
+internal 是默认访问级别，所有没有单独列出的都是这个权限  
+public 可以在外部文件访问，如果只需要访问就用它  
+open 可以在外部文件访问，如果需要继承和重写就用它    
+
+2.单例的使用，在 class 外面用 static let 修饰即可  
+3.重写父类方法，类方法和实例方法的使用  
+4.强制解包和去解包 ！ ？  
+> 
+隐式解包: 就是在定义可选类型值的时候，加上 ！进行强制解包  
+显示解包: 在使用的时候加 ！进行解包  
+去解包: 用的时候加上 ？可定义 optional 进行解包
