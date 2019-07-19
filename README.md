@@ -47,4 +47,11 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 去解包: 用的时候加上 ？可定义 optional 进行解包  
 ```  
 5.空合运算符 ？？，本质上是对三目运算符的一种简化  
-6.convenience 和 required 关键字使用
+6.convenience 和 required 关键字使用  
+
+#Day3 - Find My Position  
+![](http://leonlei.top/Day%203%20-%20Find%20My%20Position.gif)
+
+知识点总结：  
+1.使用 CoreLocation 获取用户当前的地理位置  
+2.使用 URLRequest URLSession 调用腾讯地图open api 获取具体位置信息
