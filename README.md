@@ -63,4 +63,13 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 知识点总结：  
 1.tableView 使用  
 2.Array的使用  
-3.UIRefreshControl 的使用 
+3.UIRefreshControl 的使用  
+
+# Day5 -  Play Local Video 
+
+![](http://leonlei.top/Day%205%20-%20Play%20Local%20Video.gif)
+
+知识点总结：  
+1.复习tablView和tablViewCell在Swift中的用法  
+2.导入使用AVKit,熟悉AVAsset、AVPlayerItem、AVPlayer、AVPlayerViewController的使用  
+3.extension为当前类创建扩展，可以用来分隔功能，实现相关协议
