@@ -24,7 +24,7 @@
 
 # Day2 - Iconfont  
 
-![](http://leonlei.top/Day2%20-%20Iconfont.gif)  
+![](http://leonlei.top/Day%202%20-%20Iconfont.gif)  
 
 知识点总结：  
 1.访问限制关键字 private、fileprivate、internal、public、open  
@@ -49,9 +49,18 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 5.空合运算符 ？？，本质上是对三目运算符的一种简化  
 6.convenience 和 required 关键字使用  
 
-#Day3 - Find My Position  
+# Day3 - Find My Position  
 ![](http://leonlei.top/Day%203%20-%20Find%20My%20Position.gif)
 
 知识点总结：  
 1.使用 CoreLocation 获取用户当前的地理位置  
-2.使用 URLRequest URLSession 调用腾讯地图open api 获取具体位置信息
+2.使用 URLRequest URLSession 调用腾讯地图open api 获取具体位置信息  
+3.JSONSerialization序列化JSON字符串  
+
+# Day4 - Pull To Refresh
+![](http://leonlei.top/Day%204%20-%20Pull%20To%20Refresh.gif)  
+
+知识点总结：  
+1.tableView 使用  
+2.Array的使用  
+3.UIRefreshControl 的使用 
