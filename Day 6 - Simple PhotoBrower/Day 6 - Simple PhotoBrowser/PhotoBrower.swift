@@ -8,10 +8,10 @@
 
 import UIKit
 
-class PhotoBrower: UIView,UIScrollViewDelegate {
-    var containerView:UIScrollView?
-    var zoomGesture:UIGestureRecognizer?
-    var imageView:UIImageView?
+class PhotoBrower: UIView,UIScrollViewDelegate,UIGestureRecognizerDelegate {
+    var containerView:UIScrollView!
+    var zoomGesture:UITapGestureRecognizer?
+    var imageView:UIImageView!
     
     var imageName:String!
     
@@ -30,7 +30,23 @@ class PhotoBrower: UIView,UIScrollViewDelegate {
     }
     
     func createZoomGesture() {
-
+        zoomGesture = UITapGestureRecognizer.init(target: self, action: #selector(doubleTapAction(gesture:)))
+        zoomGesture?.numberOfTapsRequired = 2;
+        zoomGesture?.numberOfTouchesRequired = 1
+        zoomGesture?.delegate = self
+        imageView?.addGestureRecognizer(zoomGesture!)
+    }
+    
+    @objc func doubleTapAction(gesture:UITapGestureRecognizer) {
+        var scale = containerView.zoomScale
+        if scale>1.0 {
+            scale = 1.0
+        }else if scale>0.5&&scale<=1.0 {
+            scale = 0.5
+        }else {
+            scale = 3.0
+        }
+        containerView.setZoomScale(CGFloat(scale), animated: true)
     }
     
     func setUpSubviews() {
@@ -47,11 +63,14 @@ class PhotoBrower: UIView,UIScrollViewDelegate {
         imageView = UIImageView.init(image: UIImage.init(named: imageName))
         imageView?.frame = containerView!.bounds
         imageView?.contentMode = .scaleAspectFill
+        imageView?.isUserInteractionEnabled = true
         
         containerView?.addSubview(imageView!)
+        
+        createZoomGesture()
     }
     func bringImageViewCenter() {
-        if containerView!.zoomScale<CGFloat(1.0) {
+        if containerView!.zoomScale<=CGFloat(1.0) {
             imageView?.center = CGPoint(x:(containerView?.bounds.width)!*0.5,y:(containerView?.bounds.height)!*0.5)
         }
     }
@@ -59,10 +78,10 @@ class PhotoBrower: UIView,UIScrollViewDelegate {
 
 extension PhotoBrower {
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-        print(scrollView)
         return imageView
     }
     func scrollViewDidZoom(_ scrollView: UIScrollView) {
+        print("scrollViewDidZoom")
         bringImageViewCenter()
     }
 }

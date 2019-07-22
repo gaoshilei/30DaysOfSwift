@@ -85,5 +85,5 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 > **calls an appropriate superclass initializer：**需要调用合适的父类初始化器完成初始化，不能随意调用。   
 
 3.通过scrollViewDidZoom代理方法设置缩小时图片居中  
-
+4.添加tapGesture，通过双击缩放图片
 

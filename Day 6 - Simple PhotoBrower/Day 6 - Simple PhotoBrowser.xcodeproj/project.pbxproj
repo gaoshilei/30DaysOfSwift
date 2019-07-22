@@ -23,9 +23,9 @@
 		BD3ADFF622E563C00066583F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD3ADFF822E563C20066583F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3ADFFB22E563C20066583F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BD3ADFFD22E563C20066583F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD3AE00322E563F60066583F /* PhotoBrower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrower.swift; sourceTree = "<group>"; };
 		BD3AE00522E56A840066583F /* IMG_3370.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3370.jpg; sourceTree = "<group>"; };
+		BD3AE00722E5EFC50066583F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 				BD3AE00322E563F60066583F /* PhotoBrower.swift */,
 				BD3AE00522E56A840066583F /* IMG_3370.jpg */,
 				BD3ADFF522E563C00066583F /* Main.storyboard */,
+				BD3AE00722E5EFC50066583F /* Info.plist */,
 				BD3ADFF822E563C20066583F /* Assets.xcassets */,
 				BD3ADFFA22E563C20066583F /* LaunchScreen.storyboard */,
-				BD3ADFFD22E563C20066583F /* Info.plist */,
 			);
 			path = "Day 6 - Simple PhotoBrowser";
 			sourceTree = "<group>";
@@ -292,12 +292,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XL6E9K2MQ5;
-				INFOPLIST_FILE = "Day 6 - Simple PhotoBrower/Info.plist";
+				INFOPLIST_FILE = "Day 6 - Simple PhotoBrowser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gaoshilei.Day-6---Simple-PhotoBrower";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaoshilei.Day-6---Simple-PhotoBrowser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,12 +310,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XL6E9K2MQ5;
-				INFOPLIST_FILE = "Day 6 - Simple PhotoBrower/Info.plist";
+				INFOPLIST_FILE = "Day 6 - Simple PhotoBrowser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "gaoshilei.Day-6---Simple-PhotoBrower";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaoshilei.Day-6---Simple-PhotoBrowser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
