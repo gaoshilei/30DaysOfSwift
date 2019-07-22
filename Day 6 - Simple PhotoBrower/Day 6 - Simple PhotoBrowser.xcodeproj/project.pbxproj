@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD3ADFEE22E563C00066583F /* Day 6 - Simple PhotoBrower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 6 - Simple PhotoBrower.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD3ADFEE22E563C00066583F /* Day 6 - Simple PhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 6 - Simple PhotoBrowser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3ADFF122E563C00066583F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD3ADFF322E563C00066583F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD3ADFF622E563C00066583F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		BD3ADFE522E563C00066583F = {
 			isa = PBXGroup;
 			children = (
-				BD3ADFF022E563C00066583F /* Day 6 - Simple PhotoBrower */,
+				BD3ADFF022E563C00066583F /* Day 6 - Simple PhotoBrowser */,
 				BD3ADFEF22E563C00066583F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		BD3ADFEF22E563C00066583F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD3ADFEE22E563C00066583F /* Day 6 - Simple PhotoBrower.app */,
+				BD3ADFEE22E563C00066583F /* Day 6 - Simple PhotoBrowser.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BD3ADFF022E563C00066583F /* Day 6 - Simple PhotoBrower */ = {
+		BD3ADFF022E563C00066583F /* Day 6 - Simple PhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				BD3ADFF122E563C00066583F /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				BD3ADFFA22E563C20066583F /* LaunchScreen.storyboard */,
 				BD3ADFFD22E563C20066583F /* Info.plist */,
 			);
-			path = "Day 6 - Simple PhotoBrower";
+			path = "Day 6 - Simple PhotoBrowser";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BD3ADFED22E563C00066583F /* Day 6 - Simple PhotoBrower */ = {
+		BD3ADFED22E563C00066583F /* Day 6 - Simple PhotoBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD3AE00022E563C20066583F /* Build configuration list for PBXNativeTarget "Day 6 - Simple PhotoBrower" */;
+			buildConfigurationList = BD3AE00022E563C20066583F /* Build configuration list for PBXNativeTarget "Day 6 - Simple PhotoBrowser" */;
 			buildPhases = (
 				BD3ADFEA22E563C00066583F /* Sources */,
 				BD3ADFEB22E563C00066583F /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Day 6 - Simple PhotoBrower";
+			name = "Day 6 - Simple PhotoBrowser";
 			productName = "Day 6 - Simple PhotoBrower";
-			productReference = BD3ADFEE22E563C00066583F /* Day 6 - Simple PhotoBrower.app */;
+			productReference = BD3ADFEE22E563C00066583F /* Day 6 - Simple PhotoBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BD3ADFE922E563C00066583F /* Build configuration list for PBXProject "Day 6 - Simple PhotoBrower" */;
+			buildConfigurationList = BD3ADFE922E563C00066583F /* Build configuration list for PBXProject "Day 6 - Simple PhotoBrowser" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BD3ADFED22E563C00066583F /* Day 6 - Simple PhotoBrower */,
+				BD3ADFED22E563C00066583F /* Day 6 - Simple PhotoBrowser */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BD3ADFE922E563C00066583F /* Build configuration list for PBXProject "Day 6 - Simple PhotoBrower" */ = {
+		BD3ADFE922E563C00066583F /* Build configuration list for PBXProject "Day 6 - Simple PhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD3ADFFE22E563C20066583F /* Debug */,
@@ -334,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD3AE00022E563C20066583F /* Build configuration list for PBXNativeTarget "Day 6 - Simple PhotoBrower" */ = {
+		BD3AE00022E563C20066583F /* Build configuration list for PBXNativeTarget "Day 6 - Simple PhotoBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BD3AE00122E563C20066583F /* Debug */,
