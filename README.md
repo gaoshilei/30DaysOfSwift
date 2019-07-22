@@ -72,4 +72,18 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 知识点总结：  
 1.复习tablView和tablViewCell在Swift中的用法  
 2.导入使用AVKit,熟悉AVAsset、AVPlayerItem、AVPlayer、AVPlayerViewController的使用  
-3.extension为当前类创建扩展，可以用来分隔功能，实现相关协议
+3.extension为当前类创建扩展，可以用来分隔功能，实现相关协议  
+
+# Day6 - Simple PhotoBrowser  
+![](http://leonlei.top/Day%206%20-%20Simple%20PhotoBrowser.gif)  
+
+知识点总结：  
+1.自定义一个view,继承自UIView，添加imageView到scrollView上，监听zommForView方法，实现手势缩放图片  
+2.designated initializers方法，关键点为三点 
+> **primary initializers：**designated initializers 是一个类的主初始化器，理论上来说是一个类初始化的必经之路（注：不同的初始化路径可能调用不同的 designated initializers  
+> **fully initializes all properties：**这点很明确，必须在 designated initializers 中完成所有成员属性的初始化；  
+> **calls an appropriate superclass initializer：**需要调用合适的父类初始化器完成初始化，不能随意调用。   
+
+3.通过scrollViewDidZoom代理方法设置缩小时图片居中  
+
+
