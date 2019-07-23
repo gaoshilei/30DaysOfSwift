@@ -7,7 +7,7 @@
 今天看到网上关于一篇文章 [《100 Days of Swift》](https://samvlu.com/index.html)，国内已经有很多人写过类似的文章了，[30天学习编写30个Swift小程序](https://juejin.im/post/5c618227518825625c270640)，[自学 iOS - 三十天三十个 Swift 项目
 ](https://www.jianshu.com/p/52032bc4cbe4)，正好可以按照这个思路来学一下 Swift。
 
-可能你会质疑有没有必要重复写一个文章呢？我觉得是有必要的，一方面是为了监督自己学下去，另一方面也可以总结自己的心得和知识点收获。以后我每天会更新一个例子，学习的例子主要参考 《100 Days of Swift》中的，讲一讲在这个例子里面学到了哪些 Swift 知识点，希望自己可以坚持下去。
+可能你会质疑有没有必要重复写一个文章呢？我觉得是有必要的，一方面是为了监督自己学下去，另一方面也可以总结自己的心得和知识点收获。以后我每天会更新一个例子，学习的例子主要参考以上文章，讲一讲在这个例子里面学到了哪些 Swift 知识点，希望自己可以坚持下去。
 
 <!-- more -->
 
@@ -85,5 +85,14 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 > **calls an appropriate superclass initializer：**需要调用合适的父类初始化器完成初始化，不能随意调用。   
 
 3.通过scrollViewDidZoom代理方法设置缩小时图片居中  
-4.添加tapGesture，通过双击缩放图片
+4.添加tapGesture，通过双击缩放图片  
+
+# Day7 - Color Gradient   
+![](http://leonlei.top/Day%207%20-%20Color%20Gradient.gif)
+
+知识点总结：  
+一天的时间是24小时，渐变色分为12段，每天温度最高是12点，然后温度逐渐下降，图层的渐变效果根据当前的温度来设定，温度根据当前的时间来设定，通过手势滑动可以设置当前的时间。  
+1.使用CAGradientLayer实现图层的渐变效果  
+2.给UIColor添加extension方便生成颜色  
+3.通过重写touchesBegan、touchesMoved方法来监听手势变化  
 
