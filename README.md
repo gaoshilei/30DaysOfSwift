@@ -96,3 +96,10 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 2.给UIColor添加extension方便生成颜色  
 3.通过重写touchesBegan、touchesMoved方法来监听手势变化  
 
+#Day8 - Carousel Effect  
+
+![](http://leonlei.top/Day%208%20-%20Carousel%20Effect.gif)  
+知识点总结：  
+1.照片横屏滑动的旋转木马效果，复习使用 UICollectionView 来实现，cell的标题view上添加UIEffectView 实现毛玻璃效果  
+2.swift 中使用lazy关键字实现延时加载，lazy还可以配合map filter 这类接受闭包运行的方法一起运行    
+3.cell的layer设置设置圆角并且ClipToBounds会触发离屏渲染，大量cell的时候要避免这样使用
