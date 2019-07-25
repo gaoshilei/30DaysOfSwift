@@ -96,10 +96,18 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 2.给UIColor添加extension方便生成颜色  
 3.通过重写touchesBegan、touchesMoved方法来监听手势变化  
 
-#Day8 - Carousel Effect  
+# Day8 - Carousel Effect  
 
 ![](http://leonlei.top/Day%208%20-%20Carousel%20Effect.gif)  
 知识点总结：  
 1.照片横屏滑动的旋转木马效果，复习使用 UICollectionView 来实现，cell的标题view上添加UIEffectView 实现毛玻璃效果  
 2.swift 中使用lazy关键字实现延时加载，lazy还可以配合map filter 这类接受闭包运行的方法一起运行    
-3.cell的layer设置设置圆角并且ClipToBounds会触发离屏渲染，大量cell的时候要避免这样使用
+3.cell的layer设置设置圆角并且ClipToBounds会触发离屏渲染，大量cell的时候要避免这样使用  
+4.`Masnory`的Swift版本`SnapKit`使用
+
+# Day9 - Emoji Slot Machine  
+![](http://leonlei.top/Day%209%20-%20Emoji%20Slot%20Machine.gif)  
+知识点总结：  
+1.使用Emoji和UIPickerView实现了小时候玩的老虎机效果，打开VIP开关可以每次都命中  
+2.在这个小demo中学习了延迟asyncAfter的使用，逃逸闭包（@escaping）和非逃逸闭包区别     
+3.使用arc4random()随机函数乱排Component，对比三行的Emoji值，如果一样则显示Congratulation
