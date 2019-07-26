@@ -111,3 +111,10 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 1.使用Emoji和UIPickerView实现了小时候玩的老虎机效果，打开VIP开关可以每次都命中  
 2.在这个小demo中学习了延迟asyncAfter的使用，逃逸闭包（@escaping）和非逃逸闭包区别     
 3.使用arc4random()随机函数乱排Component，对比三行的Emoji值，如果一样则显示Congratulation
+
+# Day10 - TableView Gradient
+![](http://leonlei.top/Day%2010%20-%20TableView%20Gradient.gif)  
+
+知识点总结：  
+1.针对每个cell设置渐变色  
+2.将颜色均分成cell的个数+1，然后让每个cell的的颜色从top到bottom进行渐变  
