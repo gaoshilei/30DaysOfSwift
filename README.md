@@ -118,3 +118,10 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 知识点总结：  
 1.针对每个cell设置渐变色  
 2.将颜色均分成cell的个数+1，然后让每个cell的的颜色从top到bottom进行渐变  
+
+# Day11 - Animate tableViewCell  
+![](http://leonlei.top/Day11%20-%20animate%20TableViewCell.gif)  
+知识点总结：  
+1.效果类似于之前百度外卖商品列表的cell动画，整体思路通过CGAffineTransform来实现    
+2.还是用上一个项目的渐变效果，在viewWillAppear的时候给cell加上位移动画，首先设置cell的纵向偏移，然后再用UIView动画将cell位置归位，注意要打个时差，不然效果就不好看了  
+3.设置动画的时候需要刷新tableView数据，不然没有效果  
