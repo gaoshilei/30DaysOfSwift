@@ -133,3 +133,22 @@ open 可以在外部文件访问，如果需要继承和重写就用它
 1.使用usingSpringWithDamping完成弹跳效果  
 2.使用CGAffineTransform完成控件的位移效果  
 
+# Day 13 - Splash Video  
+
+![](http://leonlei.top/Day13%20-%20Splash%20Video.gif)  
+
+知识点总结：  
+1.使用AVPlayerController和AVPlayer来实现  
+2.需要设置AVPlayerController的showsPlaybackControls为false，不然视频的控件就让用户看到了  
+3.设置播放结束的通知监听  
+
+```  
+NotificationCenter.default.addObserver(self, selector: #selector(playerItemDidReachEnd(item:)), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: videoPlayer.player?.currentItem) 
+``` 
+等到播放结束时，重新播放  
+
+```
+videoPlayer.player?.seek(to: .zero)
+videoPlayer.player?.play()
+```
+
