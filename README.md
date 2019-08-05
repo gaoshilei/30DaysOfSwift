@@ -152,3 +152,18 @@ videoPlayer.player?.seek(to: .zero)
 videoPlayer.player?.play()
 ```
 
+# Day 14 - Animated Splash  
+
+![](http://leonlei.top/Day14%20-%20Animation%20Splash.gif)  
+
+知识点总结：  
+1.创建一个蒙版CAMaskLayer，把小鸟设置成蒙版的内容，然后将蒙版设置到目标图层上  
+2.给蒙版添加动画，使用关键帧动画（CAKeyframeAnimation）来实现，整个过程有三个状态，正常的小鸟，缩小的小鸟，最后放大的小鸟，设置好三步动画之后，再将动画添加到蒙版上即可实现小鸟的
+3.设置蒙版动画时要注意  
+
+```
+keyFrameAnimation.fillMode = .forwards
+keyFrameAnimation.isRemovedOnCompletion = false
+```  
+
+如果不设置这两行，会造成动画完成之后的闪屏现象
